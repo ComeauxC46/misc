@@ -134,6 +134,6 @@ alias school="cd /mnt/d/School/"
 printf '%b' '\e]12;red\a'
 
 #Set prompt
-export PS1='\e[92m\u@\h\e[1;34m<\W> \n$ \e[0m'
+export PS1='\[\e[92m\]\u@\h\[\e[1;34m\]<\W> \n$ \[\e[0m\]'
 #export PS1='\u@\h[\d]<\W> '
 
